@@ -22,7 +22,7 @@ function calpourcentage(val)
     result = parseInt(a) + val*0.015 ;
 
   }
-  return result;
+  return parseInt(result);
 }
 $(document).ready(function(){
   $('.val').bind('keyup mouseup',function(){
