@@ -25,7 +25,7 @@ function calpourcentage(val)
   return parseInt(result);
 }
 $(document).ready(function(){
-  $('.val').bind('keydown mouseup',function(){
+  $('.val').bind('keyup mouseup',function(){
     var val = $('.val').val() ;
     $('.amount').text(calpourcentage(val));;
     $('.amount').counterUp(function(){
